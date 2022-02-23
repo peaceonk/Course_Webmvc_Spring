@@ -14,9 +14,6 @@ public class Notice {
 	public Notice() {
 		
 	}
-	
-	
-
 
 
 	public Notice(int id, String title, String writerId, Date regDate, String content, int hit, String files) {
@@ -29,9 +26,6 @@ public class Notice {
 		this.hit = hit;
 		this.files = files;
 	}
-
-
-
 
 
 	public int getId() {
@@ -70,16 +64,12 @@ public class Notice {
 	public void setHit(int hit) {
 		this.hit = hit;
 	}
-
 	public String getFiles() {
 		return files;
 	}
-
 	public void setFiles(String files) {
 		this.files = files;
 	}
-	
-	
 	
 	
 }
